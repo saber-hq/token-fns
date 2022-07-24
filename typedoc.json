@@ -1,0 +1,12 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "excludePrivate": true,
+  "includeVersion": true,
+  "out": "docs/",
+  "entryPointStrategy": "packages",
+  "includes": "packages/",
+  "readme": "./README.md",
+  "name": "Saber Token Functions Documentation",
+  "gaID": "G-TNHBYK8FQY",
+  "cname": "token-fns.saberlabs.org"
+}

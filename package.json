@@ -27,7 +27,6 @@
     "jsbi": "^4.3.0",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "swagger-typescript-api": "^9.3.1",
     "ts-jest": "^28.0.7",
     "typedoc": "^0.23.8",
     "typescript": "^4.7.4"
@@ -35,7 +34,7 @@
   "scripts": {
     "build": "tsc --build",
     "publish:all": "yarn workspaces foreach --exclude workspace -vpti --topological-dev npm publish",
-    "docs:generate": "typedoc --excludePrivate --includeVersion --out docs/ --entryPointStrategy packages --includes packages/ $(find ./packages -mindepth 1 -maxdepth 1 | grep -v browserslist)",
+    "docs:generate": "typedoc .",
     "bump": "yarn workspaces foreach -t version",
     "test": "jest --passWithNoTests",
     "lint": "eslint . --cache",
@@ -46,8 +45,5 @@
   "lint-staged": {
     "*.{ts,tsx}": "eslint --cache --fix",
     "*.{md,js,json,yml,yaml,css,md}": "prettier --write"
-  },
-  "resolutions": {
-    "axios": "^0.27"
   }
 }
