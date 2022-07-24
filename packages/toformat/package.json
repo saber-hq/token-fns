@@ -1,6 +1,6 @@
 {
   "name": "@saberhq/toformat",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Formats fractions with significant or fixed digits",
   "author": "Ian Macalinao <ian@saber.so>",
   "homepage": "https://github.com/saber-hq/token-fns#readme",

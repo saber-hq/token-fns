@@ -1,6 +1,6 @@
 {
   "name": "@saberhq/token-fns",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utilities for mathematical operations around tokens.",
   "author": "Ian Macalinao <ian@saber.so>",
   "homepage": "https://github.com/saber-hq/token-fns#readme",
